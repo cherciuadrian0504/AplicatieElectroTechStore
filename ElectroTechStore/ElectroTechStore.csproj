@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-ElectroTechStore-52dbdbfa-9fcf-49f9-9c37-656be994e8e0</UserSecretsId>
+    <NoWarn>NU1902</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
