@@ -1,8 +1,208 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<ElectroTechStore.Models.Product>
+@{
+    ViewData["Title"] = ViewBag.SelectedCategoryName ?? "Magazin Componente PC & Embedded";
+    var categories = ViewBag.Categories as List<ElectroTechStore.Models.Category> ?? new List<ElectroTechStore.Models.Category>();
+    int? selectedCatId = ViewBag.SelectedCategoryId as int?;
+    string? currentSearch = ViewBag.CurrentSearch as string;
+    string? currentSort = ViewBag.CurrentSort as string;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Banner Superior + Bara de Căutare stil eMAG -->
+<div class="p-4 mb-4 rounded-3 text-white shadow-sm" style="background: linear-gradient(135deg, #005eb8 0%, #1d2b64 100%);">
+    <div class="row align-items-center g-3">
+        <div class="col-lg-6">
+            <span class="badge bg-danger mb-2">ElectroTech Store</span>
+            <h2 class="fw-bold mb-1">Componente PC, Embedded & Electronică</h2>
+            <p class="mb-0 text-white-50">Microcontrolere, plăci de dezvoltare, senzori și hardware de performanță</p>
+        </div>
+        <div class="col-lg-6">
+            <form asp-action="Index" method="get" class="d-flex gap-2">
+                @if (selectedCatId.HasValue)
+                {
+                    <input type="hidden" name="categoryId" value="@selectedCatId" />
+                }
+                <input type="text" name="search" value="@currentSearch" class="form-control form-control-lg" placeholder="Ai libertatea să cauți: Arduino, Ryzen, Senzor, Furnizor..." />
+                <button type="submit" class="btn btn-danger btn-lg px-4 fw-semibold">Caută</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Meniu Lateral Departamente / Categorii (Stânga) -->
+    <div class="col-lg-3">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-dark text-white fw-bold py-3">
+                Categorii Produse
+            </div>
+            <div class="list-group list-group-flush">
+                <a asp-action="Index"
+                   class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-3 @(selectedCatId == null ? "active fw-bold" : "")">
+                    <span>Toate Departamentele</span>
+                    <span class="badge @(selectedCatId == null ? "bg-light text-dark" : "bg-secondary") rounded-pill">
+                        @categories.Sum(c => c.Products.Count)
+                    </span>
+                </a>
+
+                @foreach (var cat in categories)
+                {
+                    bool isActive = selectedCatId == cat.Id;
+                    <a asp-action="Index"
+                       asp-route-categoryId="@cat.Id"
+                       asp-route-search="@currentSearch"
+                       class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-3 @(isActive ? "active fw-bold" : "")">
+                        <span>@cat.Name</span>
+                        <span class="badge @(isActive ? "bg-light text-dark" : "bg-secondary") rounded-pill">
+                            @cat.Products.Count
+                        </span>
+                    </a>
+                }
+            </div>
+        </div>
+
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="card shadow-sm border-danger mt-3">
+                <div class="card-body">
+                    <h6 class="fw-bold text-danger mb-2">Panou Rapid Admin</h6>
+                    <div class="d-grid gap-2">
+                        <a asp-controller="Products" asp-action="Create" class="btn btn-sm btn-outline-danger">+ Adaugă Produs Nou</a>
+                        <a asp-controller="Categories" asp-action="Create" class="btn btn-sm btn-outline-secondary">+ Adaugă Categorie</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Grid-ul de Produse (Dreapta) -->
+    <div class="col-lg-9">
+        <!-- Bara de filtre active și sortare -->
+        <div class="card shadow-sm border-0 mb-3">
+            <div class="card-body d-flex flex-wrap justify-content-between align-items-center py-2 px-3 gap-2">
+                <div>
+                    <h5 class="fw-bold mb-0">
+                        @(ViewBag.SelectedCategoryName ?? "Toate Produsele")
+                        <span class="text-muted fs-6 fw-normal">(@Model.Count() produse)</span>
+                    </h5>
+                    @if (ViewBag.SelectedCategoryDescription != null)
+                    {
+                        <small class="text-muted">@ViewBag.SelectedCategoryDescription</small>
+                    }
+                </div>
+
+                <div class="d-flex align-items-center gap-2">
+                    @if (!string.IsNullOrEmpty(currentSearch) || selectedCatId.HasValue)
+                    {
+                        <a asp-action="Index" class="btn btn-sm btn-outline-secondary">Resetează filtrele</a>
+                    }
+
+                    <form asp-action="Index" method="get" class="d-flex align-items-center gap-2">
+                        @if (selectedCatId.HasValue)
+                        {
+                            <input type="hidden" name="categoryId" value="@selectedCatId" />
+                        }
+                        @if (!string.IsNullOrEmpty(currentSearch))
+                        {
+                            <input type="hidden" name="search" value="@currentSearch" />
+                        }
+                        <label class="small text-muted text-nowrap mb-0">Ordonează:</label>
+                        <select name="sort" class="form-select form-select-sm" onchange="this.form.submit()">
+                            <option value="" selected="@(string.IsNullOrEmpty(currentSort))">Cele mai noi</option>
+                            <option value="price_asc" selected="@(currentSort == "price_asc")">Preț crescător</option>
+                            <option value="price_desc" selected="@(currentSort == "price_desc")">Preț descrescător</option>
+                            <option value="stock_desc" selected="@(currentSort == "stock_desc")">Stoc disponibil</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        @if (!Model.Any())
+        {
+            <div class="alert alert-light border text-center py-5 shadow-sm">
+                <h5 class="fw-bold">Nu am găsit produse care să corespundă criteriilor</h5>
+                <p class="text-muted mb-3">Încearcă să schimbi termenul căutat sau selectează altă categorie.</p>
+                <a asp-action="Index" class="btn btn-primary">Vezi toate produsele</a>
+            </div>
+        }
+        else
+        {
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
+                @foreach (var item in Model)
+                {
+                    <div class="col">
+                        <div class="card h-100 shadow-sm border-0 position-relative">
+                            <!-- Badge Categorie -->
+                            <div class="px-3 pt-3 d-flex justify-content-between align-items-center">
+                                <span class="badge bg-light text-primary border">@item.Category?.Name</span>
+                                <small class="text-muted">@item.Supplier</small>
+                            </div>
+
+                            <!-- Imagine Produs -->
+                            <a asp-action="Details" asp-route-id="@item.Id" class="text-center p-3 d-block">
+                                @if (!string.IsNullOrEmpty(item.ImageUrl))
+                                {
+                                    <img src="@item.ImageUrl" alt="@item.Name" class="img-fluid" style="height: 160px; object-fit: contain;" />
+                                }
+                                else
+                                {
+                                    <div class="d-flex align-items-center justify-content-center bg-light rounded" style="height: 160px;">
+                                        <span class="text-muted small">Fără imagine</span>
+                                    </div>
+                                }
+                            </a>
+
+                            <!-- Corp Card -->
+                            <div class="card-body d-flex flex-column pt-0">
+                                <a asp-action="Details" asp-route-id="@item.Id" class="text-decoration-none text-dark fw-semibold mb-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 3rem;">
+                                    @item.Name
+                                </a>
+
+                                <p class="small text-muted mb-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                    @item.Specifications
+                                </p>
+
+                                <div class="mt-auto pt-2 border-top">
+                                    <!-- Stoc și Livrare -->
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        @if (item.Stock > 5)
+                                        {
+                                            <span class="badge bg-success-subtle text-success border border-success-subtle">În stoc (@item.Stock buc.)</span>
+                                        }
+                                        else if (item.Stock > 0)
+                                        {
+                                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle">Stoc limitat (@item.Stock buc.)</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger-subtle text-danger border border-danger-subtle">Stoc epuizat</span>
+                                        }
+                                        <small class="text-muted" style="font-size: 0.75rem;">@item.DeliveryMethod</small>
+                                    </div>
+
+                                    <!-- Preț în stil eMAG -->
+                                    <div class="fs-4 fw-bold text-danger mb-2">
+                                        @item.Price.ToString("0.00") <small class="fs-6">RON</small>
+                                    </div>
+
+                                    <!-- Butoane Acțiune -->
+                                    <div class="d-grid gap-1">
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary fw-semibold">
+                                            Vezi Detalii & Specificații
+                                        </a>
+                                        @if (User.IsInRole("Admin"))
+                                        {
+                                            <a asp-controller="Products" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">
+                                                Editează (Admin)
+                                            </a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
 </div>
