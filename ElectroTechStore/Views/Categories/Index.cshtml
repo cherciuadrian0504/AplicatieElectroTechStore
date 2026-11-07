@@ -1,12 +1,54 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿@model IEnumerable<ElectroTechStore.Models.Category>
 
-namespace ElectroTechStore.Views.Categories
-{
-    public class Index : Controller
-    {
-        public IActionResult Index()
-        {
-            return View();
-        }
-    }
+@{
+    ViewData["Title"] = "Administrare Categorii";
 }
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold mb-0">Categorii Produse</h2>
+        <p class="text-muted mb-0">Gestionează categoriile de componente PC și sisteme embedded</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">
+        + Adaugă Categorie Nouă
+    </a>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th class="ps-4">Nume Categorie</th>
+                    <th>Descriere</th>
+                    <th class="text-center">Nr. Produse</th>
+                    <th class="text-end pe-4">Acțiuni</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="ps-4 fw-semibold">@item.Name</td>
+                        <td class="text-muted">@(string.IsNullOrEmpty(item.Description) ? "-" : item.Description)</td>
+                        <td class="text-center">
+                            <span class="badge bg-secondary">@item.Products.Count produse</span>
+                        </td>
+                        <td class="text-end pe-4">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary me-1">Editează</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Șterge</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
