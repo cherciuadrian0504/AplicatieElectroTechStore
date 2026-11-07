@@ -1,0 +1,38 @@
+﻿@model ElectroTechStore.Models.Category
+
+@{
+    ViewData["Title"] = "Șterge Categorie";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card border-danger shadow-sm">
+            <div class="card-header bg-danger text-white">
+                <h5 class="mb-0">Confirmare Ștergere Categorie</h5>
+            </div>
+            <div class="card-body">
+                <p class="mb-3">Ești sigur că vrei să ștergi categoria <strong>@Model.Name</strong>?</p>
+
+                @if (Model.Products.Any())
+                {
+                    <div class="alert alert-warning">
+                        <strong>Atenție:</strong> Această categorie conține <strong>@Model.Products.Count produse</strong>. Ștergerea categoriei va șterge și produsele asociate!
+                    </div>
+                }
+
+                <dl class="row mb-4">
+                    <dt class="col-sm-4">Nume:</dt>
+                    <dd class="col-sm-8">@Model.Name</dd>
+                    <dt class="col-sm-4">Descriere:</dt>
+                    <dd class="col-sm-8">@(Model.Description ?? "-")</dd>
+                </dl>
+
+                <form asp-action="Delete" method="post" class="d-flex justify-content-between">
+                    <input type="hidden" asp-for="Id" />
+                    <a asp-action="Index" class="btn btn-outline-secondary">Renunță</a>
+                    <button type="submit" class="btn btn-danger">Confirmă Ștergerea</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
