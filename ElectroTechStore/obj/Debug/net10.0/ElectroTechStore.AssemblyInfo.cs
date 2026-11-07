@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElectroTechStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e35de03e477bded218cecc866314c7c9bdb971b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff7ceeb202969e539700fd3e1a8db1d1884fff4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElectroTechStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElectroTechStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
