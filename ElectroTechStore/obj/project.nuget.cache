@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xy17g/N1RjU=",
+  "dgSpecHash": "+QAxPb7M6AA=",
   "success": true,
-  "projectFilePath": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\ElectroTechStore.csproj",
+  "projectFilePath": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\ElectroTechStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adria\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

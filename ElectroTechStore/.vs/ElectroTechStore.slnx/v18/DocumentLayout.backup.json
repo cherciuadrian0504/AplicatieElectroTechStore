@@ -1,97 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\",
+  "WorkspaceRootPath": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\electrotechstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:electrotechstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\data\\migrations\\20261104112009_initialecommerceschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:data\\migrations\\20261104112009_initialecommerceschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\data\\migrations\\20261104112009_initialecommerceschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:data\\migrations\\20261104112009_initialecommerceschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\electrotechstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:electrotechstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|d:\\comert_electronic_proiect\\aplicatieelectrotech\\electrotechstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|n:\\comertelectronic_proiect\\aplicatieelectrotechstore\\electrotechstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F1303A5-4162-ACD2-1E30-5EFF3D239BB8}|ElectroTechStore.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -102,15 +106,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-09T06:10:46.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Home\\Details.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Home\\Details.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "Views\\Home\\Details.cshtml",
               "ViewState": "AgIAAJ0AAAAAAAAAAADwv74AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -119,89 +136,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAKgAAAAAAAAAAADwv88AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T20:44:53.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T20:43:30.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T20:33:14.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T20:44:53.717Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T20:43:30.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-07T20:33:14.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Create.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Create.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "Views\\Products\\Create.cshtml",
               "ViewState": "AgIAADUAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T20:32:10.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T20:32:10.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Index.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Index.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAAFUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T20:30:44.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T20:30:44.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Controllers\\ProductsController.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAiwHkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T20:28:32.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T20:28:32.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Create.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Create.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Create.cshtml",
               "RelativeToolTip": "Views\\Categories\\Create.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvygAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -209,11 +220,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Index.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "Views\\Categories\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -221,11 +232,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Controllers\\CategoriesController.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAAAG4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,88 +244,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAhwHoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-07T16:16:45.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T16:16:45.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T16:03:15.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T16:03:15.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T16:48:16.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T16:48:16.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Delete.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Products\\Delete.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Products\\Delete.cshtml",
               "RelativeToolTip": "Views\\Products\\Delete.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T20:34:09.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-07T20:34:09.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Edit.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Edit.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Edit.cshtml",
               "RelativeToolTip": "Views\\Categories\\Edit.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-07T16:45:10.082Z",
+              "WhenOpened": "2026-11-07T16:45:10.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20261104112009_InitialEcommerceSchema.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
+              "RelativeToolTip": "Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T11:20:10.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20261104112009_InitialEcommerceSchema.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
-              "RelativeToolTip": "Data\\Migrations\\20261104112009_InitialEcommerceSchema.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T11:20:10.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ElectroTechStore.csproj",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\ElectroTechStore.csproj",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\ElectroTechStore.csproj",
               "RelativeDocumentMoniker": "ElectroTechStore.csproj",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\ElectroTechStore.csproj",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\ElectroTechStore.csproj",
               "RelativeToolTip": "ElectroTechStore.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -322,24 +329,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Program.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Program.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T10:55:31.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-04T10:55:31.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Delete.cshtml",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Delete.cshtml",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Views\\Categories\\Delete.cshtml",
               "RelativeToolTip": "Views\\Categories\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -347,35 +353,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 0,
               "Title": "DbInitializer.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Data\\DbInitializer.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Data\\DbInitializer.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Data\\DbInitializer.cs",
               "RelativeToolTip": "Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADgBAAAAAAAAAAAmwDsBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T10:54:23.783Z"
+              "WhenOpened": "2026-11-04T10:54:23.783Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-04T10:47:33.002Z"
+              "WhenOpened": "2026-11-04T10:47:33.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Models\\Product.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Models\\Product.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwDcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -383,11 +391,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Models\\Category.cs",
+              "DocumentMoniker": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\Models\\Category.cs",
+              "ToolTip": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
