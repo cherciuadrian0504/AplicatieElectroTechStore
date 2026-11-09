@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\ElectroTechStore.csproj": {}
+    "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\ElectroTechStore.csproj": {}
   },
   "projects": {
-    "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\ElectroTechStore.csproj": {
+    "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\ElectroTechStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\ElectroTechStore.csproj",
+        "projectUniqueName": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\ElectroTechStore.csproj",
         "projectName": "ElectroTechStore",
-        "projectPath": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\ElectroTechStore.csproj",
+        "projectPath": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\ElectroTechStore.csproj",
         "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "D:\\Comert_Electronic_Proiect\\AplicatieElectroTech\\ElectroTechStore\\obj\\",
+        "outputPath": "N:\\ComertElectronic_Proiect\\AplicatieElectroTechStore\\ElectroTechStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
